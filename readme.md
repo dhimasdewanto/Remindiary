@@ -24,3 +24,12 @@
     <li>Sudiptpa/guid</li>
     <li>Intervention Image</li>
 </ul>
+
+<br>
+
+# Initialize
+<ol>
+    <li>Add App Key</li>
+    <li>Add Pusher</li>
+    <li>Add Vapid</li>
+</ol>
