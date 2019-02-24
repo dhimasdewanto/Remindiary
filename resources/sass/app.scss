@@ -1,0 +1,88 @@
+// Fonts
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+// Materialize
+@import 'materialize-sass/materialize';
+
+// Import Variables First
+@import 'mustInclude/variables';
+// Style in App.vue
+@import 'mustInclude/vue-app';
+
+@import 'components/settings/a';
+@import 'components/settings/sidenav-trigger';
+
+@import 'components/include/header';
+@import 'components/include/navbar';
+@import 'components/include/navbar-mobile';
+@import 'components/include/navbar-mobile-top';
+@import 'components/include/navigation-mobile';
+@import 'components/include/notifications';
+@import 'components/include/post-feed';
+
+@import 'components/include/postcomponents/cardheader';
+@import 'components/include/postcomponents/post-body';
+@import 'components/include/postcomponents/post-content';
+@import 'components/include/postcomponents/remind-date-time';
+
+@import 'components/layouts/devices';
+@import 'components/layouts/flex';
+
+@import 'components/pages/home';
+@import 'components/pages/please-login';
+@import 'components/pages/post-create-edit';
+@import 'components/pages/post-show';
+@import 'components/pages/profile';
+@import 'components/pages/search';
+@import 'components/pages/settings';
+
+@import 'include/footer';
+@import 'include/nav-intro';
+@import 'include/particlesjs';
+
+@import 'pages/about';
+@import 'pages/auth';
+@import 'pages/intro';
+@import 'pages/portofolio';
+
+@import 'color/color-dark';
+@import 'color/color-light';
+
+
+
+
+
+// @import 'components_old/card-header';
+// @import 'components_old/header';
+// @import 'components_old/header-mobile';
+// @import 'components_old/navigation';
+// @import 'components_old/navbar';
+// @import 'components_old/navbar-mobile';
+
+
+// @import 'part-config/button';
+// @import 'part-config/devices';
+// @import 'part-config/grid';
+// @import 'part-config/image';
+// @import 'part-config/modal';
+// @import 'part-config/image_preview';
+
+
+// @import 'post/post-body';
+// @import 'post/createedit';
+// @import 'post/feed';
+// @import 'post/show';
+// @import 'post/delete';
+// @import 'post/created-updated-at';
+
+
+// @import 'home';
+// @import 'profile';
+// @import 'auth';
+// @import 'notifications';
+// @import 'search';
+// @import 'settings';
+
+
+// @import 'color/color-dark';
+// @import 'color/color-light';

@@ -1,0 +1,39 @@
+// Primary Buttons
+.btn, .btn-large, .btn-small {
+    background-color: $primary;
+    color: $textSecondary;
+
+    &:hover {
+        background-color: $primaryLighten;
+    }
+}
+
+// Secondary Buttons
+.btn.color-s, .btn-large.color-s, .btn-small.color-s {
+    background-color: $secondary;
+    color: $textSecondary;
+
+    &:hover {
+        background-color: $secondaryLighten;
+    }
+}
+
+// Buttons with color-theme background
+.btn.color-theme, .btn-large.color-theme, .btn-small.color-theme {
+    background-color: $theme;
+    color: $secondaryDarken;
+
+    &:hover {
+        background-color: $hover !important;
+    }
+}
+
+// Alert Buttons
+.btn.color-alert, .btn-large.color-alert, .btn-small.color-alert {
+    background-color: $alert !important;
+    color: $textSecondary !important;
+
+    &:hover {
+        background-color: $alertLighten !important;
+    }
+}

@@ -1,0 +1,68 @@
+// Text Field
+/* input color */
+.input-field input[type=text] {
+    color: $textPrimary;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    // @extend .color-p-text;
+    color: $primary;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom-color: $primary;
+}
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom-color: $primary;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom-color: $alert;
+}
+
+// Email Field
+/* input color */
+.input-field input[type=email] {
+    color: $textPrimary;
+}
+/* label focus color */
+.input-field input[type=email]:focus + label {
+    // @extend .color-p-text;
+    color: $primary;
+}
+/* label underline focus color */
+.input-field input[type=email]:focus {
+    border-bottom-color: $primary;
+}
+/* valid color */
+.input-field input[type=email].valid {
+    border-bottom-color: $primary;
+}
+/* invalid color */
+.input-field input[type=email].invalid {
+    border-bottom-color: $alert;
+}
+
+// Password Field
+/* input color */
+.input-field input[type=password] {
+    color: $textPrimary;
+}
+/* label focus color */
+.input-field input[type=password]:focus + label {
+    // @extend .color-p-text;
+    color: $primary;
+}
+/* label underline focus color */
+.input-field input[type=password]:focus {
+    border-bottom-color: $primary;
+}
+/* valid color */
+.input-field input[type=password].valid {
+    border-bottom-color: $primary;
+}
+/* invalid color */
+.input-field input[type=password].invalid {
+    border-bottom-color: $alert;
+}

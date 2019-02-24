@@ -1,0 +1,23 @@
+.select-wrapper {
+    .select-dropdown.dropdown-trigger {
+        color: $textPrimary;
+    }
+
+    .select-dropdown.dropdown-content {
+        li {
+            background-color: $theme;
+    
+            span {
+                color: $textPrimary;
+            }
+    
+            &:hover {
+                background-color: $hover;
+            }
+    
+            &.selected {
+                background-color: $selected;
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+#please-login {
+
+    width: 500px;
+
+    // For Mobile
+    @media screen and (max-width: $medium) {
+        width: 100%;
+    }
+
+    // Center Vertical & Horizontal
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    h5 {
+        margin: 0 1rem;
+    }
+
+    .row {
+        margin-top: 1rem;
+
+        .btn {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+
+        .link-explore {
+            .material-icons {
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+        }
+    }
+
+}

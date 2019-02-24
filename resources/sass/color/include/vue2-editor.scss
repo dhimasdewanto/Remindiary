@@ -1,0 +1,9 @@
+// Placeholder Color
+
+#quill-container {
+    .ql-editor.ql-blank {
+        &::before {
+            color: $secondaryLighten;
+        }
+    }
+}

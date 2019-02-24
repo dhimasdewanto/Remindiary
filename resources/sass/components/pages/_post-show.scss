@@ -1,0 +1,55 @@
+#post-show {
+    .row {
+        .col {
+            padding: 0;
+        }
+
+        // For Desktop Only
+        @media screen and (min-width: $medium) {
+            margin-left: 5rem;
+            margin-right: 5rem;
+            margin-top: 1rem;
+            margin-bottom: 0;
+
+            .col-right {
+                padding-left: 1rem;
+            }
+        }
+    }
+
+    // All Cards
+    .card {
+        margin-bottom: 0;
+        margin-top: 1rem;
+    }
+
+    // Post Profile Creator
+    .profile-creator {
+        margin-top: 1rem;
+        border: none;
+
+        .title {
+            font-size: 1.5rem;
+        }
+
+        .visibility {
+            margin: 0.5rem 0;
+        }
+
+        .timestamp {
+            font-size: 0.8rem;
+
+            // https://stackoverflow.com/questions/9792849/how-to-insert-spaces-tabs-in-text-using-html-css
+            span {
+                display: inline-block; 
+                width: 5.5rem;
+            }
+        }
+    }
+
+    // For Desktop Edit and Delete Button
+    .flex.desktop {
+        margin-top: 1rem;
+    }
+
+}

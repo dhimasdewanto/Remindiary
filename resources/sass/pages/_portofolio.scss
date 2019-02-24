@@ -1,0 +1,68 @@
+#portofolio {
+
+    // For Desktop
+    @media screen and (min-width: $medium) {
+       width: 800px;
+    }
+
+    // For Mobile
+    @media screen and (max-width: $medium) {
+        text-align: center;
+        width: 100%;
+    }
+
+    // Center Vertical
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    .row {
+        margin: 0;
+
+        .col-left {
+            // For Desktop
+            @media screen and (min-width: $medium) {
+                padding-left: 0;
+            }
+
+            h2 {
+                margin-top: 0;
+            }
+
+            .btn {
+                margin-top: 0.5rem;
+            }
+        }
+
+        .col-right {
+            border-left: 1px solid #9e9e9e;
+            padding: 1rem 2rem;
+            padding-right: 0;
+
+            // For Desktop
+            @media screen and (min-width: $medium) {
+                margin-top: 1rem;
+            }
+
+            // For Mobile
+            @media screen and (max-width: $medium) {
+                text-align: left;
+                margin-top: 3rem;
+                margin-left: 15%;
+                width: 70%;
+            }
+
+            .contact-div {
+                margin-bottom: 1rem;
+            }
+
+            .contact-div.bottom {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+}

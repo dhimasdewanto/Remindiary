@@ -1,0 +1,20 @@
+// Filled in Style
+[type="checkbox"].filled-in {
+    // Checked style
+    &:checked {
+        + span:not(.lever):before {
+            border-right-color: $textSecondary;
+            border-bottom-color: $textSecondary;
+        }
+
+        + span:not(.lever):after {
+            border: 2px solid $primary;
+            background-color: $primary;
+        }
+    }
+
+    &.tabbed:checked:focus + span:not(.lever):after {
+        background-color: $primary;
+        border-color: $primary;
+    }
+}

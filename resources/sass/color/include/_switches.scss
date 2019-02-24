@@ -1,0 +1,9 @@
+// Switches
+.switch label input[type=checkbox]:checked+.lever {
+    // The Background
+    background-color: $primaryLighten;
+}
+.switch label input[type=checkbox]:checked+.lever:after {
+    // The Circle
+    background-color: $primary;
+}

@@ -1,0 +1,56 @@
+#intro {
+
+    // For Desktop
+    @media screen and (min-width: $medium) {
+        max-width: 1280px;
+        margin: 0 18%;
+    }
+
+    // For Mobile
+    @media screen and (max-width: $medium) {
+        text-align: center;
+    }
+
+    // Center Vertical
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    .row {
+        margin: 0;
+
+        .col-left {
+            // For Desktop
+            @media screen and (min-width: $medium) {
+                padding-left: 0;
+            }
+
+            h1 {
+                margin-top: 0;
+            }
+        }
+
+        .col-right {
+            margin-top: 1rem;
+
+            // For Desktop
+            @media screen and (min-width: $medium) {
+                padding-right: 0;
+            }
+
+            .btn {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+
+            .link-explore {
+                .material-icons {
+                    vertical-align: middle;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    
+}

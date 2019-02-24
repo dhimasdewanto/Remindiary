@@ -1,0 +1,64 @@
+#search-page {
+
+    // Desktop Search Field
+    .input-field.container {
+        margin-top: 2rem;
+    }
+
+    // User Result
+    .col-left {
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+            
+        // For Desktop Only
+        @media screen and (min-width: $medium) {
+            padding-left: 2rem;
+            padding-right: 0.5rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0;
+        }
+
+        // For Mobile Only
+        @media screen and (max-width: $medium) {
+            margin-bottom: 0;
+        }
+
+        .collection {
+            border: none;
+            margin: 0;
+
+            .collection-item {
+                padding-left: 94px;
+
+                img {
+                    height: 64px;
+                    width: 64px;
+                }
+
+                .title {
+                    font-size: 20px;
+                    height: 25px;
+                    margin-top: 20px
+                }
+            }
+        }
+    }
+
+    // Post Result
+    .col-right {
+        padding: 0;
+        
+        // For Desktop Only
+        @media screen and (min-width: $medium) {
+            padding-right: 2rem;
+            padding-left: 0.5rem;
+        }
+
+        // For Mobile Only
+        @media screen and (max-width: $medium) {
+            margin-top: 0.5rem;
+        }
+    }
+
+}

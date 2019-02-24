@@ -1,0 +1,116 @@
+// Theme and Background
+.color-theme {
+    background-color: $theme !important;
+}
+.color-background {
+    background-color: $background !important;
+}
+.color-p {
+    background-color: $primary !important;
+}
+.color-s {
+    background-color: $secondary !important;
+}
+.color-alert {
+    background-color: $alert !important;
+}
+
+
+
+// Text
+.color-text {
+    color: $textPrimary !important;
+}
+.color-text-1 {
+    color: $textSecondary !important;
+}
+.color-text-p {
+    color: $primary !important;
+}
+.color-text-pd {
+    color: $primaryDarken !important;
+}
+.color-text-s {
+    color: $secondary !important;
+}
+.color-text-sd {
+    color: $secondaryDarken !important;
+}
+.color-text-sl {
+    color: $secondaryLighten !important;
+}
+.color-text-alert {
+    color: $alert !important;
+}
+
+
+
+// Link
+.color-link {
+    color: $textPrimary !important;
+    transition: 0.3s;
+    &:hover {
+        color: $textPrimaryLighten !important;
+    }
+}
+.color-link-p {
+    color: $primary !important;
+    transition: 0.3s;
+    &:hover {
+        color: $primaryLighten !important;
+    }
+}
+.color-link-s {
+    color: $secondary !important;
+    transition: 0.3s;
+    &:hover {
+        color: $secondaryLighten !important;
+    }
+}
+.color-link-alert {
+    color: $alert !important;
+    transition: 0.3s;
+    &:hover {
+        color: $alertLighten !important;
+    }
+}
+.color-link-hover-p {
+    color: $textPrimary !important;
+    transition: 0.3s;
+    &:hover {
+        color: $primary !important;
+    }
+}
+
+
+
+// Action
+.color-action-p {
+    color: $primary !important;
+    &:hover {
+        color: $secondary !important;
+    }
+}
+.color-action-s {
+    color: $secondary !important;
+    &:hover {
+        color: $primary !important;
+    }
+}
+
+
+
+// Background Link
+.color-bglink {
+    transition: 0.3s;
+    &:hover {
+        background-color: $hover !important;
+    }
+}
+
+.color-bglink-darken {
+    transition: 0.3s;
+    &:hover {
+        background-color: $selected !important;
+    }
+}

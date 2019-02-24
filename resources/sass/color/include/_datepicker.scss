@@ -1,0 +1,27 @@
+.datepicker-modal {
+    background-color: $theme;
+
+    .datepicker-date-display {
+        background-color: $background;
+
+        .date-text, .year-text {
+            color: $textPrimary;
+        }
+    }
+
+    .is-today {
+        color: $primaryDarken;
+    }
+
+    .is-selected {
+        background-color: $primary;
+        color: $textSecondary;
+    }
+
+    .datepicker-done, .datepicker-cancel {
+        color: $textPrimary;
+    }
+    .datepicker-clear {
+        color: $alert;
+    }
+}

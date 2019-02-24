@@ -1,0 +1,10 @@
+.desktop {
+    @extend .hide-on-med-and-down;
+}
+
+/**
+ * For now it also tablet mode
+ */
+.mobile {
+    @extend .hide-on-large-only;
+}

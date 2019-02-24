@@ -1,0 +1,34 @@
+#post-feed {
+    .full-card {
+        margin-bottom: 1rem;
+
+        .card {
+            margin: 0;
+
+            // For Mobile
+            @media screen and (max-width: $medium) {
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    .left-post {
+        padding-right: 0.5rem;
+
+        .card {
+            margin-top: 0;
+        }
+    }
+
+    .right-post {
+        padding-left: 0.5rem;
+
+        .card {
+            margin-top: 0;
+        }
+    }
+
+    .mobile {
+        margin-top: 1rem;
+    }
+}

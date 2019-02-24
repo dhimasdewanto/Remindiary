@@ -1,0 +1,13 @@
+// If item is invisible (because of their background)
+// Add border in their class
+.border {
+    border: 1px solid $border;
+}
+
+.border-bottom {
+    border-bottom: 1px solid $border;
+}
+
+.border-top {
+    border-top: 1px solid $border;
+}

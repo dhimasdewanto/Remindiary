@@ -1,0 +1,28 @@
+body.theme-light {
+
+    $theme: #ffffff;
+    $background: #eceff1;
+    $primary: #009688;
+    $primaryLighten: #4db6ac;
+    $primaryDarken: #00796b;
+    $secondary: #607d8b;
+    $secondaryLighten: #90a4ae;
+    $secondaryDarken: #455a64;
+    $textPrimary: #000000;
+    $textPrimaryLighten: #616161;
+    $textSecondary: #ffffff;
+    $alert: #f44336;
+    $alertLighten: #ef5350;
+    $alertDarken: #d32f2f;
+    $hover: #eeeeee;
+    $selected: #e0e0e0;
+
+    // Border Color
+    // Light theme --> border color = theme color
+    $border: $theme;
+
+    background-color: $background;
+
+    @import 'include';
+
+}

@@ -1,0 +1,92 @@
+#profile {
+
+    .page {
+        // For Desktop Only
+        @media screen and (min-width: $medium) {
+            margin-top: 2rem;
+            margin-bottom: 0;
+        }
+
+        // For Mobile Only
+        @media screen and (max-width: $medium) {
+            .feed {
+                padding: 0;
+            }
+        }
+
+        .desktop {
+
+            /**
+             * @source https://www.w3schools.com/howto/howto_css_aspect_ratio.asp
+             */
+            .image-profile {
+                position: relative;
+                width: 100%;
+                padding-top: 100%; /* 1:1 Aspect Ratio */
+    
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+
+            .btn-follow {
+                width: 100%;
+                margin-top: 1rem;
+            }
+
+            .profile-information {
+                margin-bottom: 0;
+                margin-top: 1rem;
+
+                .card-content {
+                    padding-top: 0.5rem;
+                    padding-bottom: 0.5rem;
+
+                    h5 {
+                        margin-top: 0.3rem;
+                        margin-bottom: 0.5rem;
+                    }
+                }
+            }
+
+        }
+
+        .mobile {
+            padding: 0;
+
+            .collection {
+                border: none;
+                margin-top: 1rem;
+                margin-bottom: 0;
+
+                .collection-item {
+                    padding-left: 85px;
+                    padding-right: 115px;
+
+                    img.circle {
+                        width: 60px;
+                        height: 60px;
+                    }
+
+                    .title {
+                        font-size: 1.5rem;
+                        word-wrap: break-word;
+                        line-height: 2rem;
+                    }
+
+                    .follower {
+                        margin-top: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+}

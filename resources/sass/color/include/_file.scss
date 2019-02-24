@@ -1,0 +1,14 @@
+// File Field
+
+/* label underline focus color */
+.file-field input[type=text]:focus {
+    border-bottom-color: $primary;
+}
+/* valid color */
+.file-field input[type=text].valid {
+    border-bottom-color: $primary;
+}
+/* invalid color */
+.file-field input[type=text].invalid {
+    border-bottom-color: $alert;
+}

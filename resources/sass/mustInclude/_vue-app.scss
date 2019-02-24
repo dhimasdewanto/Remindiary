@@ -1,0 +1,47 @@
+// Transformation For Mobile Only
+@media screen and (max-width: $medium) {
+
+    .zoom-enter-active, .zoom-leave-active {
+        transition: opacity .1s, transform .2s;
+    }
+    .zoom-enter {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    .zoom-leave-to {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+
+    .swipe-enter-active, .swipe-leave-active {
+        transition: opacity .1s, transform .15s;
+    }
+    .swipe-enter {
+        opacity: 0;
+        transform: translateX(-30%);
+    }
+    .swipe-leave-to {
+        opacity: 0;
+        transform: translateX(30%);
+    }
+
+}
+
+
+// Transformation For Desktop Only
+@media screen and (min-width: $medium) {
+    .zoom-enter-active, .zoom-leave-active, .swipe-enter-active, .swipe-leave-active {
+        transition: opacity .1s ease;
+    }
+    .zoom-enter, .zoom-leave-to, .swipe-enter, .swipe-leave-to {
+        opacity: 0;
+    }
+}
+
+
+.view {
+    // For Mobile Only
+    @media screen and (max-width: $medium) {
+        margin-bottom: 150px;
+    }
+}

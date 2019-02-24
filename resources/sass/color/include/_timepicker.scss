@@ -1,0 +1,35 @@
+// Time Picker
+.timepicker-modal {
+    background-color: $theme;
+
+    .timepicker-digital-display {
+        background-color: $background;
+
+        .timepicker-display-column {
+            color: $textPrimaryLighten;
+        }
+
+        .text-primary {
+            color: $textPrimary;
+        }
+    }
+
+    .timepicker-plate {
+        background-color: $background;
+        .timepicker-tick {
+            color: $textPrimary;
+        }
+    }
+
+    .timepicker-close {
+        color: $textPrimary;
+    }
+    .timepicker-clear {
+        color: $alert;
+    }
+
+    // Clockwise - jarum jam - bug
+    // .timepicker-dial {
+        // @extend .color-p;
+    // }
+}

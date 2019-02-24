@@ -1,0 +1,20 @@
+#navbar-mobile-top {
+
+    .brand-logo {
+        font-size: 22px;
+    }
+
+    input {
+        border-bottom: none;
+        margin: 0;
+
+        &:focus {
+            border-bottom: none !important;
+            box-shadow: none !important;
+        }                
+    }
+
+    // For Hide Purpose
+    transition: top 0.2s;
+
+}

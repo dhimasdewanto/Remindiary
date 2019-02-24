@@ -1,0 +1,25 @@
+.card-header {
+    border-top: 0 !important;
+    border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+
+    .profile-link {
+        margin-right: 0 !important;
+
+        .profile-image {
+            height: 24px;
+            width: 24px;
+            object-fit: cover;
+            margin-right: 15px;
+        }
+
+        .profile-name {
+            margin-right: 0 !important;
+            text-transform: capitalize !important;
+        }
+    }
+
+    .material-icons {
+        vertical-align: middle;
+    }
+
+}

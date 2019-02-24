@@ -1,0 +1,28 @@
+#home {
+    .feed {
+        // For Mobile
+        @media screen and (max-width: $medium) {
+            padding: 0;
+        }
+    }
+
+    #navigation {
+        .btn-newpost {
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+
+            .material-icons {
+                margin-right: 10px;
+            }
+        }
+
+        .menu {
+            margin: 0;
+
+            .menu-item {
+                padding: 15px 5px;
+            }
+        }
+    }
+}

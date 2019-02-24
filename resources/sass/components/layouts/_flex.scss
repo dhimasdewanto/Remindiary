@@ -1,0 +1,13 @@
+// Flex 2 Item (max and mini)
+.flex {
+    display: flex;
+
+    .flex-max {
+        width: 100%;
+    }
+
+    .flex-mini {
+        margin-left: 0.5rem;
+        flex-shrink: 0; // No Squashed/Flat
+    }
+}

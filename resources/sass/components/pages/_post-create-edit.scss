@@ -1,0 +1,109 @@
+#post-create-edit {
+
+    #post-body-editor {
+        padding: 0;
+
+        .ql-toolbar.ql-snow {
+            border: 0;
+        }
+
+        #quill-container {
+            border: 0;
+
+            .ql-editor {
+                min-height: 250px;
+            }
+        }
+    }
+
+    .post-title {
+        margin-top: 0;
+        width: 100%;
+
+        .card-content {
+            padding: 0 20px;
+
+            input {
+                border-bottom: none;
+                margin: 0;
+
+                &:focus {
+                    border-bottom: none !important;
+                    box-shadow: none !important;
+                }                
+            }
+        }
+
+        // Visibility Switch for Mobile View
+        .switch {
+            padding-top: 0.5rem;
+            padding-bottom: 1rem;
+        }
+    }
+
+    .btn-box {
+        height: 3rem;
+        padding-top: 0.3rem;
+        font-size: 16px;
+    }
+
+    .switch {
+        .material-icons {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+    }
+
+    .form-row {
+
+        // For Desktop
+        @media screen and (min-width: $medium) {
+            margin-left: 5rem;
+            margin-right: 5rem;
+            margin-top: 2rem;
+            margin-bottom: 0;
+
+            .left-panel {
+                padding-left: 0;
+        
+                .left-bottom-panel {
+                    margin-top: 0;
+                }
+            }
+
+            .right-panel {
+                padding-right: 0;
+
+                .btn-box.send {
+                    width: 100%;
+                    margin-bottom: 1rem;
+                }
+
+                .card {
+                    padding: 10px 0;
+                    margin: 0;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+
+        // For Mobile
+        @media screen and (max-width: $medium) {
+            margin-top: 1rem;
+
+            .left-panel {
+                padding: 0;
+
+                .left-bottom-panel {
+                    margin-bottom: 0;
+                }
+            }
+            
+            .right-panel {
+                padding: 0;
+            }
+        }
+
+    }
+
+}

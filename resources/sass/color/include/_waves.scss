@@ -1,0 +1,13 @@
+// Settings waves on btn-flat
+
+.btn-flat {
+    .waves-ripple {
+        background-color: $selected;
+    }
+}
+
+.btn-flat.waves-effect {
+    &:focus {
+        background-color: $hover;
+    }
+}

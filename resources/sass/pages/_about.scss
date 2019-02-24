@@ -1,0 +1,34 @@
+#about-page {
+
+    // For Desktop
+    @media screen and (min-width: $medium) {
+        width: 411px;
+    }
+
+    // For Mobile
+    @media screen and (max-width: $medium) {
+        width: 100%;
+    }
+
+    // Center Vertical & Horizontal
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    p {
+        padding-left: 1rem;
+    }
+
+    ul {
+        margin: 0;
+        padding-left: 2rem;
+
+        li {
+            list-style-type: disc;
+        }
+    }
+
+}
