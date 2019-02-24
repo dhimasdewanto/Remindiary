@@ -20,6 +20,7 @@
 
 <strong>Back-End</strong>
 <ul>
+    <li>Laravel WebPush</li>
     <li>Sudiptpa/guid</li>
     <li>Intervention Image</li>
 </ul>
